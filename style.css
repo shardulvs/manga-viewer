@@ -7,6 +7,17 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('nfs_car.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh; /* Make sure it fills the full viewport height */
+}
+
+
 .container {
     max-width: 600px;
     margin: 20px auto;
