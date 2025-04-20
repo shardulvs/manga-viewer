@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let images = [];
+    let images = ["./default.jpg"];
     let currentIndex = 0;
     let isMangaMode = false;
     let zoomLevel = 1;
@@ -129,5 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (event.key === "-") zoomOutBtn.click();
         else if (event.key.toLowerCase() === "f") toggleFullScreen();
     });
+
+    displayImage();
 
 });
