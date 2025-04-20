@@ -70,29 +70,30 @@ button:hover {
 }
 
 #prev-btn, #next-btn {
-    background-color: #007bff;
+    background-color: #4caf50; /* Medium green */
     color: white;
 }
 
 #manga-mode-btn {
-    background-color: #ff9800;
+    background-color: #66bb6a; /* Light green */
     color: white;
 }
 
 #zoom-in-btn, #zoom-out-btn {
-    background-color: #28a745;
+    background-color: #388e3c; /* Darker green */
     color: white;
 }
 
 #fullscreen-btn {
-    background-color: #ffc107;
+    background-color: #81c784; /* Soft green */
     color: black;
 }
 
 #theme-toggle-btn {
-    background-color: #555;
+    background-color: #2e7d32; /* Deep green */
     color: white;
 }
+
 
 /* DARK MODE */
 .dark-mode {
